@@ -27,32 +27,6 @@ F 3 "~" H 5100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 653122D2
-P 4500 2800
-AR Path="/653122D2" Ref="R?"  Part="1" 
-AR Path="/652C7050/653122D2" Ref="R401"  Part="1" 
-F 0 "R401" H 4650 2750 50  0000 R CNN
-F 1 "R" H 4650 2850 50  0000 R CNN
-F 2 "" V 4430 2800 50  0001 C CNN
-F 3 "~" H 4500 2800 50  0001 C CNN
-	1    4500 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 653122D8
-P 4500 2500
-AR Path="/653122D8" Ref="#PWR?"  Part="1" 
-AR Path="/652C7050/653122D8" Ref="#PWR0401"  Part="1" 
-F 0 "#PWR0401" H 4500 2350 50  0001 C CNN
-F 1 "+3V3" H 4515 2673 50  0000 C CNN
-F 2 "" H 4500 2500 50  0001 C CNN
-F 3 "" H 4500 2500 50  0001 C CNN
-	1    4500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 653122DE
 P 4750 2800
@@ -74,17 +48,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 2600 5450 3250
 Wire Wire Line
-	4500 2650 4500 2500
-Wire Wire Line
-	4500 2950 4500 3250
-Wire Wire Line
-	4500 3250 4750 3250
-Wire Wire Line
 	4750 2950 4750 3250
 Connection ~ 4750 3250
 Wire Wire Line
 	4750 3250 4800 3250
-Connection ~ 4500 3250
 $Comp
 L power:+3V3 #PWR?
 U 1 1 653122FB
@@ -181,8 +148,6 @@ Text Label 4200 3250 2    50   ~ 0
 NRST
 Wire Wire Line
 	3950 3950 4650 3950
-Wire Wire Line
-	3950 3250 4500 3250
 Text HLabel 6350 2750 0    50   Input ~ 0
 SWDIO
 Text HLabel 6350 2850 0    50   Input ~ 0
@@ -231,4 +196,6 @@ Wire Wire Line
 	6300 3350 6600 3350
 Text Label 6450 3350 0    50   ~ 0
 VB
+Wire Wire Line
+	3950 3250 4750 3250
 $EndSCHEMATC

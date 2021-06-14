@@ -125,4 +125,43 @@ Text HLabel 7600 3050 2    50   Input ~ 0
 USB_DP
 Wire Wire Line
 	7100 3050 7600 3050
+$Comp
+L Device:R R?
+U 1 1 60C71868
+P 7100 2500
+AR Path="/60C71868" Ref="R?"  Part="1" 
+AR Path="/652C6CB5/60C71868" Ref="R503"  Part="1" 
+F 0 "R503" V 7200 2600 50  0000 C CNN
+F 1 "10R" V 7200 2400 50  0000 C CNN
+F 2 "" V 7030 2500 50  0001 C CNN
+F 3 "~" H 7100 2500 50  0001 C CNN
+	1    7100 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 2500 6700 2500
+Wire Wire Line
+	6500 2600 6700 2600
+Wire Wire Line
+	6700 2600 6700 2500
+Connection ~ 6700 2500
+Wire Wire Line
+	6700 2500 6950 2500
+$Comp
+L power:GND #PWR?
+U 1 1 60C72BDB
+P 7350 2550
+AR Path="/60C72BDB" Ref="#PWR?"  Part="1" 
+AR Path="/652C6CB5/60C72BDB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 2300 50  0001 C CNN
+F 1 "GND" H 7355 2377 50  0000 C CNN
+F 2 "" H 7350 2550 50  0001 C CNN
+F 3 "" H 7350 2550 50  0001 C CNN
+	1    7350 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2500 7350 2500
+Wire Wire Line
+	7350 2500 7350 2550
 $EndSCHEMATC
