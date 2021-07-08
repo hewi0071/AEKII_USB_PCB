@@ -21,7 +21,7 @@ AR Path="/653182F0" Ref="J?"  Part="1"
 AR Path="/652C6CB5/653182F0" Ref="J501"  Part="1" 
 F 0 "J501" H 6007 4567 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 6007 4476 50  0000 C CNN
-F 2 "" H 6050 3300 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 6050 3300 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6050 3300 50  0001 C CNN
 	1    5900 3300
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/653182F6" Ref="R?"  Part="1"
 AR Path="/652C6CB5/653182F6" Ref="R502"  Part="1" 
 F 0 "R502" V 6850 3150 50  0000 C CNN
 F 1 "10R" V 6850 2950 50  0000 C CNN
-F 2 "" V 6880 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6880 3050 50  0001 C CNN
 F 3 "~" H 6950 3050 50  0001 C CNN
 	1    6950 3050
 	0    -1   -1   0   
@@ -79,7 +79,7 @@ AR Path="/6531830B" Ref="R?"  Part="1"
 AR Path="/652C6CB5/6531830B" Ref="R501"  Part="1" 
 F 0 "R501" V 7050 2950 50  0000 C CNN
 F 1 "10R" V 7050 2750 50  0000 C CNN
-F 2 "" V 6880 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6880 2850 50  0001 C CNN
 F 3 "~" H 6950 2850 50  0001 C CNN
 	1    6950 2850
 	0    -1   -1   0   
@@ -133,7 +133,7 @@ AR Path="/60C71868" Ref="R?"  Part="1"
 AR Path="/652C6CB5/60C71868" Ref="R503"  Part="1" 
 F 0 "R503" V 7200 2600 50  0000 C CNN
 F 1 "10R" V 7200 2400 50  0000 C CNN
-F 2 "" V 7030 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7030 2500 50  0001 C CNN
 F 3 "~" H 7100 2500 50  0001 C CNN
 	1    7100 2500
 	0    -1   -1   0   
@@ -152,8 +152,8 @@ L power:GND #PWR?
 U 1 1 60C72BDB
 P 7350 2550
 AR Path="/60C72BDB" Ref="#PWR?"  Part="1" 
-AR Path="/652C6CB5/60C72BDB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7350 2300 50  0001 C CNN
+AR Path="/652C6CB5/60C72BDB" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 7350 2300 50  0001 C CNN
 F 1 "GND" H 7355 2377 50  0000 C CNN
 F 2 "" H 7350 2550 50  0001 C CNN
 F 3 "" H 7350 2550 50  0001 C CNN

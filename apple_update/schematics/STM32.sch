@@ -127,7 +127,7 @@ AR Path="/652FE53F" Ref="C?"  Part="1"
 AR Path="/652C6908/652FE53F" Ref="C101"  Part="1" 
 F 0 "C101" V 3450 2300 50  0000 L CNN
 F 1 "2.2uF" V 3350 2300 50  0000 L CNN
-F 2 "" H 3438 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3438 2400 50  0001 C CNN
 F 3 "~" H 3400 2550 50  0001 C CNN
 	1    3400 2550
 	1    0    0    -1  
@@ -170,7 +170,7 @@ AR Path="/652FE554" Ref="L?"  Part="1"
 AR Path="/652C6908/652FE554" Ref="L101"  Part="1" 
 F 0 "L101" V 3800 2550 50  0000 L CNN
 F 1 "10uH" V 3950 2550 50  0000 L CNN
-F 2 "" H 3850 2650 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3850 2650 50  0001 C CNN
 F 3 "~" H 3850 2650 50  0001 C CNN
 	1    3850 2650
 	1    0    0    -1  
@@ -415,13 +415,13 @@ Wire Wire Line
 	4400 3000 5000 3000
 Wire Wire Line
 	3850 2500 3850 2400
-Wire Bus Line
-	4600 3400 4600 5450
-Wire Bus Line
-	7450 3300 7450 5300
 Connection ~ 3850 2400
 Wire Wire Line
 	3850 2400 5000 2400
 Text HLabel 3650 2500 3    50   Input ~ 0
 VREF+
+Wire Bus Line
+	4600 3400 4600 5450
+Wire Bus Line
+	7450 3300 7450 5300
 $EndSCHEMATC
